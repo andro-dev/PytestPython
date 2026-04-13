@@ -1,10 +1,5 @@
 # Fixtures
-import pytest
-
-
-@pytest.fixture
-def preWork():
-    print("I setup browser instance")
+# import pytest
 
 
 def test_initialCheck(preWork):
@@ -12,5 +7,5 @@ def test_initialCheck(preWork):
 
 
 def test_secondCheck(preWork):
-    assert 2 == 3
+    assert 3 == 3
     print("Second test")

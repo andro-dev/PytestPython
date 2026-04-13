@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "Pytest (headed)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "tests",
+                "-s",
+                "--headed"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "purpose": [
+                "debug-test"
+            ]
+        },
+        {
+            "name": "Pytest (headless)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "tests",
+                "-s",
+                "--headless"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "purpose": [
+                "debug-test"
+            ]
+        },
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
+        }
+    ]
+}
