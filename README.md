@@ -71,3 +71,7 @@ addopts = [
 * **Tool Management:** You can run Playwright commands without "activating" an environment manually by using `uv run`.
 
 Are you planning to run these tests in a CI/CD pipeline like GitHub Actions? I can show you how to set up the `uv` cache there to make your test runs lightning-fast.
+
+## 5. Rahul Shetty Academy practice page
+https://rahulshettyacademy.com/practice
+

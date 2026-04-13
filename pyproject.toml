@@ -14,11 +14,12 @@ dev = [
 
 [tool.pytest.ini_options]
 # Specifies the directory where your tests are located
-testpaths = ["tests"] 
+testpaths = ["pytest_dir", "playwright"] 
 
 # 'addopts' stands for "additional options"
 # -v: verbose, -s: show print statements, --headed: Playwright headed mode
 addopts = "-v -s --headed"
+
 
 # Tells pytest which file patterns to look for
 python_files = ["test_*.py", "Test*.py"]
